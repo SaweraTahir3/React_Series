@@ -1,8 +1,9 @@
  
  function Navbar(){
+    const name = "Portfolio"
     return(
         <>
-         <h1>Navbar</h1>
+         <h1>{name}</h1>
         </>
     )
  }
