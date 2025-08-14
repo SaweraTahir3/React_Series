@@ -18,8 +18,6 @@
       setCounter(counter)
  }
     }
-
-
     return(
         <>
         <center>

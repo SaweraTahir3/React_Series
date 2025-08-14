@@ -8,7 +8,7 @@ import Counter from './Component/Counter/Counter'
    
     <center>
     <h1>welcome react series</h1>
-    <h1>sawera tahir</h1>
+    <h1 class='text-red-700'>Sawera Tahir Muhammad </h1>
     <br />
      <Counter/>
     </center>

@@ -1,6 +1,6 @@
  
  function Navbar(){
-    const name = "Portfolio"
+    const name = "React-Series"
     return(
         <>
          <h1>{name}</h1>
