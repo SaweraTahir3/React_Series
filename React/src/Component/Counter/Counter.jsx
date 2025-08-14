@@ -5,16 +5,17 @@
   let [counter , setCounter] = useState(0)
 
     const  addNumber = () => {
-        counter = counter + 1
+         if(counter < 20){
+     counter = counter + 1
+         }
       setCounter(counter)
        }
 
     const removeNumber = () => {
-    counter = counter - 1
-   if(counter < 0 ){
+     if(counter > 0 ){
       setCounter(counter => counter > 0 ? counter - 1 : counter)
+      counter = counter - 1
       setCounter(counter)
-   
  }
     }
 
